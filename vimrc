@@ -89,7 +89,7 @@ map ,s :call StripWhitespace ()<CR>
 map <Leader>f <Esc>:let @/=""<Enter>
 
 " Scratch File
-map <Leader>a :e ~/wiki/life.txt<Enter>
+map <Leader>a :e ~/Dropbox/life.txt<Enter>
 
 " preview current buffer in browser, parsed through markdown
 map <Leader>pm :!markdown % \|bcat
@@ -97,7 +97,7 @@ map <Leader>pm :!markdown % \|bcat
 " TODO: Add 'reload' command for aliasing :source ~/.vimrc
 " tab indenting
 
-" Comment
+" Tab to tab
 map <D-/> gcc
 vmap <S-Tab> <gv
 vmap <Tab> >gv
@@ -106,5 +106,12 @@ vmap <Tab> >gv
 " imap <Tab> <C-N>
 
 au FocusLost * :wa                " Save when I switch to another application
+
+" Clojure Niceties
 let clj_highlight_builtins = 1
 let clj_want_gorilla = 1
+
+abbrev reload :source ~/.vimrc
+
+" toggle rainbowk
+nmap <leader>R :RainbowParenthesesToggle<CR>
