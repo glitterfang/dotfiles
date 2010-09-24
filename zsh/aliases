@@ -8,14 +8,14 @@ alias ll="ls -l"
 alias la='ls -A'
 
 # git
-alias gl='git pull'
-alias gp='git push'
-alias gd='git diff'
-alias gc='git commit'
-alias gca='git commit -a'
-alias gco='git checkout'
-alias gb='git branch'
-alias gs='git status'
+alias pull='git pull'
+alias push='git push'
+alias diff='git diff'
+alias commit='git commit'
+alias comma='git commit -a'
+alias check='git checkout'
+alias branch='git branch'
+alias stat='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 
 # rails
