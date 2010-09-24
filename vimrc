@@ -89,18 +89,16 @@ map ,s :call StripWhitespace ()<CR>
 map <Leader>f <Esc>:let @/=""<Enter>
 
 " Scratch File
-map <Leader>a :e ~/Dropbox/life.txt<Enter>
+map! <Leader>a :e ~/Dropbox/life.txt<Enter>
 
 " preview current buffer in browser, parsed through markdown
 map <Leader>pm :!markdown % \|bcat
 
-" TODO: Add 'reload' command for aliasing :source ~/.vimrc
-" tab indenting
-
 " Tab to tab
-map <D-/> gcc
+map <D-/> gcc     
 vmap <S-Tab> <gv
 vmap <Tab> >gv
+
 
 " Tab auto complete
 " imap <Tab> <C-N>
@@ -115,3 +113,4 @@ abbrev reload :source ~/.vimrc
 
 " toggle rainbowk
 nmap <leader>R :RainbowParenthesesToggle<CR>
+nmap <leader>l :NERDTree<Enter> 
