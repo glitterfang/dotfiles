@@ -3,27 +3,26 @@ alias ..='cd ..'
 
 # ls
 alias ls="ls -F"
-alias l="ls -lAh"
 alias ll="ls -l"
 alias la='ls -A'
 
 # git
-alias pull='git pull'
-alias push='git push'
-alias diff='git diff'
-alias commit='git commit'
+alias p='git pull'
+alias pu='git push'
+alias c='git commit'
 alias comma='git commit -a'
 alias check='git checkout'
 alias branch='git branch'
 alias stat='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias scope="git difftool"
 
 # rails
-alias sc='script/console'
-alias ss='script/server'
-alias sg='script/generate'
+alias z='rails c'
+alias s='rails s'
+alias rg='rails g'
 alias a='autotest -rails'
-alias tlog='tail -f log/development.log'
+alias l='tail -f log/development.log'
 alias scaffold='script/generate nifty_scaffold'
 alias migrate='rake db:migrate db:test:clone'
 alias rst='touch tmp/restart.txt'

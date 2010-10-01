@@ -1,4 +1,5 @@
 silent! call pathogen#runtime_append_all_bundles()
+
 set nocompatible                  " Must come first because it changes other options.
 
 set lines=56
@@ -99,10 +100,6 @@ map <D-/> gcc
 vmap <S-Tab> <gv
 vmap <Tab> >gv
 
-
-" Tab auto complete
-" imap <Tab> <C-N>
-
 au FocusLost * :wa                " Save when I switch to another application
 
 " Clojure Niceties
@@ -114,3 +111,18 @@ abbrev reload :source ~/.vimrc
 " toggle rainbowk
 nmap <leader>R :RainbowParenthesesToggle<CR>
 nmap <leader>l :NERDTree<Enter> 
+
+nmap <space> zz                   
+
+
+" -----------------------------------------------------------------------
+"  Project Abbrevations
+" -----------------------------------------------------------------------
+
+abbrev emerald :cd ~/wiki/projects/server/emereald <Enter>
+
+" ------------------------------------------------------------------------
+"  Mustachery
+" -------------------------------------------------------------------------
+runtime! ftdetect/*.vim                   
+au BufNewFile,BufRead *.mustache        setf mustache

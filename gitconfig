@@ -18,3 +18,9 @@
   user = glitterfang
   token = 286b4dfa22623b070322b71167530da5
   
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
