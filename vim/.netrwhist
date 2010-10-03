@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/justin/wiki/projects/server/backend'
 let g:netrw_dirhist_2='/Users/justin/Desktop/mine'
 let g:netrw_dirhist_3='/Users/justin/Dropbox/school/african'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/Users/justin/Desktop/backend'
 let g:netrw_dirhist_5='/Users/justin/wiki/projects/server'
 let g:netrw_dirhist_6='/Users/justin/wiki/projects/server/emereald'
 let g:netrw_dirhist_7='/Users/justin/contributing/sinatra'
+let g:netrw_dirhist_8='.zsh/functions'
+let g:netrw_dirhist_9='.zsh'

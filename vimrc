@@ -90,7 +90,7 @@ map ,s :call StripWhitespace ()<CR>
 map <Leader>f <Esc>:let @/=""<Enter>
 
 " Scratch File
-map! <Leader>a :e ~/Dropbox/life.txt<Enter>
+map <Leader>a :e ~/Dropbox/life.txt<Enter>
 
 " preview current buffer in browser, parsed through markdown
 map <Leader>pm :!markdown % \|bcat
