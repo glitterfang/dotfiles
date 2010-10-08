@@ -126,3 +126,6 @@ abbrev emerald :cd ~/wiki/projects/server/emereald <Enter>
 " -------------------------------------------------------------------------
 runtime! ftdetect/*.vim                   
 au BufNewFile,BufRead *.mustache        setf mustache
+
+
+map <Leader>b :NERDTreeToggle<Enter>
