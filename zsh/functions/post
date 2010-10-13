@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby -wKU
+
+puts "need a name" && return if ARGV.empty?
+
+file = Time.now.strftime("%Y-%m-%d-") + "#{ARGV[0]}" + ".markdown"
+system "touch #{file}"
