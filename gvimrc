@@ -1,4 +1,4 @@
-set guifont=AnonymousPro:h15      " Font family and font size.
+set guifont=MesloLGMDZ:h14     " Font family and font size.
 set antialias                     " smooth those fonts yo.
 set encoding=utf-8                " Use UTF-8 everywhere.
 set guioptions-=T                 " Hide toolbar.
