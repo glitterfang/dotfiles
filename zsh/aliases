@@ -1,3 +1,9 @@
+# Lisp
+alias lisp='rlwrap clisp'
+
+
+alias reload='source ~/.zshrc'
+
 # cd
 alias ..='cd ..'
 
