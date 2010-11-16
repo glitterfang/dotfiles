@@ -1,5 +1,6 @@
 silent! call pathogen#runtime_append_all_bundles()
 
+set foldmethod=syntax
 set nocompatible                  " Must come first because it changes other options.
 
 set lines=56
