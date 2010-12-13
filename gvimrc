@@ -9,8 +9,8 @@ set guioptions-=r                 " Hide that scrollbar.
 " colorscheme twinkle 
 " colorscheme classic 
 " colorscheme vividchalk
-" colorscheme topfunky-light
-colorscheme railscasts
+ colorscheme topfunky-light
+" colorscheme railscasts
 " Peepopen
 if has("gui_macvim")
    macmenu &File.New\ Tab key=<nop>
